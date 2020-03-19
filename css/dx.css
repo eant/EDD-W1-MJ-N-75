@@ -40,13 +40,13 @@ nav li a {
 #noticias-destacadas {
     width: 300vw;
     overflow: auto;
-    animation: 20s slider infinite;
+    /*animation: 20s slider infinite;*/
 }
 figure {
     float: left;
     width: 100vw;
 }
-figure img {
+img {
     display: block;
     width: 100%;
 }
@@ -59,6 +59,21 @@ figure h2 {
     font-size: 4rem;
     padding: 2rem;
     line-height: 100%;
+}
+.noticia {
+    display: flex;
+    flex-direction: row;
+    justify-content: ???;
+    align-items: ???;
+
+    background-color: pink;
+}
+.noticia-img {
+    width: 25%;
+}
+.noticia-txt {
+    width: 65%;
+    background-color: lightgreen;
 }
 
 @keyframes slider {
